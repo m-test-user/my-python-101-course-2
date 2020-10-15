@@ -1,7 +1,10 @@
-!/bin/bash
+#!/bin/bash
 
 # create directory RECYCLE
 mkdir -p ~/RECYCLE
+
+# find and delete
+find ~/RECYCLE -mtime 7 -delete
 
 # compression
 gzip $1
