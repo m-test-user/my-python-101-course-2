@@ -1,6 +1,6 @@
 # Command Line Utility "SRM"
 
-## What Is It
+## What it is
 This utility allows you to put deleted files in the trash, where it is stored for 7 days. 
 The directory with deleted files is located here: `~/RECYCLE`
 
