@@ -12,4 +12,4 @@ var1="$1.gz"
 
 # move trash
 mv $var1 ~/RECYCLE
-echo "object is placed in ~/RECYCLE: $1"
+echo "object: $1 is placed in ~/RECYCLE"
