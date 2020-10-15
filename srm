@@ -2,3 +2,7 @@
 
 # create directory RECYCLE
 mkdir -p ~/RECYCLE
+
+# move trash
+mv $1 ~/RECYCLE
+echo "object is placed in ~/RECYCLE: $1"
