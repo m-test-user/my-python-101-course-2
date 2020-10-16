@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# create directory RECYCLE
+mkdir -p ~/RECYCLE
+
+# find and delete
+find ~/RECYCLE -mtime 7 -delete
+
+# compression
+gzip $1
+var1="$1.gz"
+
+# move trash
+mv $var1 ~/RECYCLE
+echo "object: $1 is placed in ~/RECYCLE"
