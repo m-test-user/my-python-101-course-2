@@ -13,4 +13,4 @@ The directory with deleted files is located here: `~/RECYCLE`
 Run command: `srm file_name`
 
 ---
-ʕ·ᴥ·ʔ
+ʕ·ᴥ·ʔ  ʕ·ᴥ·ʔ
